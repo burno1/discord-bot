@@ -1,0 +1,19 @@
+{
+  "name": "hello-world-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Erik",
+    "Petersson",
+    "Shackle"
+  ],
+  "author": "Erik Petersson, Shackle",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.0"
+  }
+}
