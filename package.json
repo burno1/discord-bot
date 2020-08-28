@@ -1,18 +1,25 @@
 {
-  "name": "hello-world-bot",
+  "name": "music-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "repository": "https://github.com/burno1/discord-bot",
+  "description": "A simple discord music bot",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Bruno",
-    "Fernandes"
+    "discord",
+    "music",
+    "bot"
   ],
-  "author": "Bruno, Fernandes",
-  "license": "ISC",
+  "author": "Bruno Fernandes",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.5.0"
+    "@discordjs/opus": "^0.1.0",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^3.2.2"
   }
 }
