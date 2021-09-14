@@ -8,7 +8,9 @@ module.exports = {
 
         if (!serverQueue) return message.channel.send('There is nothing playing.');
         else {
-            let msg = Discord.MessageEmbed();
+            let msg = new Discord.MessageEmbed()
+                .setColor('#49B224')
+                .setTitle('Queue');
             serverQueue.songs.forEach(song=> {
                 msg.addField(song.title)
             });
